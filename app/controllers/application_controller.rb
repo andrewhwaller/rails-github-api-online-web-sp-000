@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
   private
 
   def authenticate_user
+    redirect_uri = CGI.escape("http://localhost:3000/auth")
   end
 
   def logged_in?
