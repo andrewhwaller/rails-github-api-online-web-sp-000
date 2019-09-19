@@ -30,6 +30,8 @@ gem 'faraday'
 # Dot-env
 gem 'dotenv-rails'
 
+get 'hashdiff'
+
 #Testing
 group :test do
   gem 'rspec-rails'
